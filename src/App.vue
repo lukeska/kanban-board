@@ -8,10 +8,25 @@ import Nav from "./components/Nav.vue";
 </script>
 
 <template>
-	<div>
+	<div
+		class="
+			container
+			mx-auto
+			overflow-hidden
+			border-r border-l border-gray-200
+		"
+	>
 		<Nav />
-		<Sidebar />
-		<ProjectTitle />
-		<KanbanBoard />
+
+		<div class="flex">
+			<div class="w-1/5">
+				<Sidebar />
+			</div>
+
+			<div class="w-4/5 p-10">
+				<ProjectTitle />
+				<KanbanBoard />
+			</div>
+		</div>
 	</div>
 </template>
