@@ -1,28 +1,12 @@
 <template>
-	<div class="bg-gray-100 shadow-inner p-4 h-full">
+	<div class="h-full p-2 bg-gray-100 shadow-inner xl:p-4">
 		<a
 			href="#"
-			class="
-				flex
-				items-center
-				justify-start
-				space-x-3
-				text-gray-600
-				hover:text-gray-800
-				px-3
-				pt-2
-				pb-5
-				border-b border-gray-200
-				mb-3
-				mx-3
-				hover:mx-0
-				transition-all
-				duration-200
-			"
+			class="flex items-center justify-start px-3 pt-2 pb-5 mx-3 mb-3 space-x-3 text-gray-600 transition-all duration-200 border-b border-gray-200 hover:text-gray-800 hover:mx-0"
 		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
-				class="h-6 w-6"
+				class="w-6 h-6"
 				fill="none"
 				viewBox="0 0 24 24"
 				stroke="currentColor"
@@ -40,21 +24,12 @@
 		<div class="space-y-1">
 			<a
 				href="#"
-				class="
-					flex
-					items-center
-					justify-between
-					text-gray-800
-					bg-gray-200
-					rounded-lg
-					py-2
-					px-3
-				"
+				class="flex items-center justify-between px-3 py-2 text-gray-800 bg-gray-200 rounded-lg"
 			>
 				<span class="flex items-center justify-center space-x-4">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						class="h-6 w-6"
+						class="w-6 h-6"
 						fill="none"
 						viewBox="0 0 24 24"
 						stroke="currentColor"
@@ -70,15 +45,7 @@
 				</span>
 
 				<span
-					class="
-						flex
-						items-center
-						justify-center
-						space-x-1
-						rounded-lg
-						px-2
-						bg-gray-300
-					"
+					class="flex items-center justify-center px-2 space-x-1 bg-gray-300 rounded-lg"
 				>
 					<svg viewBox="0 0 60 60" class="w-4">
 						<path
@@ -95,22 +62,12 @@
 
 			<a
 				href="#"
-				class="
-					flex
-					items-center
-					justify-between
-					text-gray-600
-					hover:text-gray-800 hover:bg-gray-200
-					rounded-lg
-					py-2
-					px-3
-					group
-				"
+				class="flex items-center justify-between px-3 py-2 text-gray-600 rounded-lg hover:text-gray-800 hover:bg-gray-200 group"
 			>
 				<span class="flex items-center justify-center space-x-4">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						class="h-6 w-6"
+						class="w-6 h-6"
 						fill="none"
 						viewBox="0 0 24 24"
 						stroke="currentColor"
@@ -126,16 +83,7 @@
 				</span>
 
 				<span
-					class="
-						flex
-						items-center
-						justify-center
-						space-x-1
-						rounded-lg
-						px-2
-						bg-gray-200
-						group-hover:bg-gray-300
-					"
+					class="flex items-center justify-center px-2 space-x-1 bg-gray-200 rounded-lg group-hover:bg-gray-300"
 				>
 					<svg viewBox="0 0 60 60" class="w-4">
 						<path

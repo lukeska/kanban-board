@@ -9,21 +9,16 @@ import Nav from "./components/Nav.vue";
 
 <template>
 	<div
-		class="
-			container
-			mx-auto
-			overflow-hidden
-			border-r border-l border-gray-200
-		"
+		class="container mx-auto overflow-hidden border-l border-r border-gray-200"
 	>
 		<Nav />
 
 		<div class="flex">
-			<div class="w-1/5">
+			<div class="hidden w-1/5 lg:block">
 				<Sidebar />
 			</div>
 
-			<div class="w-4/5 p-10">
+			<div class="w-full p-4 lg:p-10 lg:w-4/5">
 				<ProjectTitle />
 				<KanbanBoard />
 			</div>

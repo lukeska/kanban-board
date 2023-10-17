@@ -1,75 +1,41 @@
 <template>
-	<div class="py-4 px-2 border-b border-gray-100 shadow">
+	<div class="px-2 py-4 border-b border-gray-100 shadow">
 		<div class="flex items-center justify-between">
 			<div class="flex items-center space-x-12">
-				<a href="/" class="text-black text-2xl font-black">
+				<a href="/" class="text-2xl font-black text-black">
 					<span class="text-green-300">Planet</span
 					><span>Express</span>
 				</a>
 
-				<div class="flex items-center space-x-4">
+				<div class="items-center hidden space-x-4 xl:flex">
 					<a
 						href="#"
-						class="
-							text-gray-500
-							hover:text-gray-800
-							block
-							px-4
-							py-1
-						"
+						class="block px-4 py-1 text-gray-500 hover:text-gray-800"
 						>Delivery</a
 					>
 					<a
 						href="#"
-						class="
-							text-gray-500
-							hover:text-gray-800
-							block
-							px-4
-							py-1
-						"
+						class="block px-4 py-1 text-gray-500 hover:text-gray-800"
 						>User Management</a
 					>
 					<a
 						href="#"
-						class="
-							text-gray-500
-							hover:text-gray-800
-							block
-							px-4
-							py-1
-						"
+						class="block px-4 py-1 text-gray-500 hover:text-gray-800"
 						>Analytics</a
 					>
 					<a
 						href="#"
-						class="
-							text-blue-50
-							block
-							px-4
-							py-1
-							bg-blue-600
-							hover:bg-blue-300
-							rounded
-						"
+						class="block px-4 py-1 bg-blue-600 rounded text-blue-50 hover:bg-blue-300"
 						>Create</a
 					>
 				</div>
 			</div>
 
 			<div class="flex items-center space-x-8">
-				<form action="" class="relative">
+				<form action="" class="relative hidden md:block">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						class="
-							h-4
-							w-4
-							absolute
-							top-1/2
-							-translate-y-1/2
-							left-2
-							text-gray-400
-						"
+						class="absolute w-4 h-4 text-gray-400 -translate-y-1/2 top-1/2 left-2"
 						fill="none"
 						viewBox="0 0 24 24"
 						stroke="currentColor"
@@ -84,7 +50,7 @@
 					<input
 						type="text"
 						placeholder="Search this site"
-						class="border border-gray-200 pl-8 pr-2 py-1"
+						class="py-1 pl-8 pr-2 border border-gray-200"
 					/>
 				</form>
 
@@ -92,7 +58,7 @@
 					<a href="#" class="text-gray-400 hover:text-gray-800">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							class="h-5 w-5"
+							class="w-5 h-5"
 							viewBox="0 0 20 20"
 							fill="currentColor"
 						>
@@ -104,7 +70,7 @@
 					<a href="#" class="text-gray-400 hover:text-gray-800">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							class="h-5 w-5"
+							class="w-5 h-5"
 							viewBox="0 0 20 20"
 							fill="currentColor"
 						>
@@ -117,18 +83,7 @@
 					</a>
 					<a
 						href="#"
-						class="
-							bg-purple-500
-							w-8
-							h-8
-							rounded-full
-							flex
-							items-center
-							justify-center
-							text-white text-sm
-							font-semibold
-							ring-2 ring-white
-						"
+						class="flex items-center justify-center w-8 h-8 text-sm font-semibold text-white bg-purple-500 rounded-full ring-2 ring-white"
 						>LU</a
 					>
 				</div>
